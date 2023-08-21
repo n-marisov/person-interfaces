@@ -1,0 +1,20 @@
+{
+  "name": "maris/user-interfaces",
+  "description": "Коллекция интерфейсов для пользователя.",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Марисов Николай Андреевич",
+      "email": "marisov123456789@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maris\\interfaces\\User\\": "src/"
+    }
+  }
+}
