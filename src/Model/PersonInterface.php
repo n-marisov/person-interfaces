@@ -3,11 +3,12 @@
 namespace Maris\interfaces\Person\Model;
 
 use DateTimeInterface;
+use Maris\Interfaces\Geo\Aggregate\AddressAggregateInterface;
 
 /***
  * Интерфейс персоны (человека)
  */
-interface PersonInterface
+interface PersonInterface extends AddressAggregateInterface
 {
     /***
      * Женский пол.
