@@ -1,8 +1,7 @@
 {
-  "name": "maris/user-interfaces",
+  "name": "maris/person-interfaces",
   "description": "Коллекция интерфейсов для пользователя.",
   "license": "MIT",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Марисов Николай Андреевич",
@@ -14,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Maris\\interfaces\\User\\": "src/"
+      "Maris\\interfaces\\Person\\": "src/"
     }
   }
 }

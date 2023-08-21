@@ -1,6 +1,6 @@
 <?php
 
-namespace Maris\interfaces\User\Model;
+namespace Maris\interfaces\Person\Model;
 
 /***
  * Интерфейс объектов способных хранить данные о человеке.
