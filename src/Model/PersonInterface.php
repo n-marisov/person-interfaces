@@ -3,12 +3,11 @@
 namespace Maris\interfaces\Person\Model;
 
 use DateTimeInterface;
-use Maris\Interfaces\Geo\Aggregate\AddressAggregateInterface;
 
 /***
  * Интерфейс персоны (человека)
  */
-interface PersonInterface extends AddressAggregateInterface
+interface PersonInterface
 {
     /***
      * Женский пол.
@@ -46,9 +45,9 @@ interface PersonInterface extends AddressAggregateInterface
 
     /***
      * Возвращает дату рождения.
-     * @return DateTimeInterface
+     * @return DateTimeInterface|null
      */
-    public function getBirthDate(): DateTimeInterface;
+    public function getBirthDate(): ?DateTimeInterface;
 
     /***
      * Возвращает пол персоны.
