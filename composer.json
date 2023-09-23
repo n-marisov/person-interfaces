@@ -2,6 +2,7 @@
   "name": "maris/person-interfaces",
   "description": "Коллекция интерфейсов для пользователя.",
   "license": "MIT",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Марисов Николай Андреевич",
