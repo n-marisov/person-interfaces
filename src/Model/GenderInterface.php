@@ -7,7 +7,7 @@ use Stringable;
 /**
  * Пол (Гендерная принадлежность).
  */
-interface GenderInterface extends Stringable
+interface GenderInterface
 {
 
 }
