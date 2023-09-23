@@ -10,22 +10,6 @@ use DateTimeInterface;
 interface PersonInterface
 {
     /***
-     * Женский пол.
-     */
-    final public const GENDER_GIRL = -1;
-
-    /***
-     * Пол не определен.
-     */
-    final public const GENDER_UNKNOWN = 0;
-
-    /***
-     * Мужской пол.
-     */
-    final public const GENDER_MAN = 1;
-
-
-    /***
      * Возвращает фамилию.
      * @return string
      */
@@ -51,7 +35,7 @@ interface PersonInterface
 
     /***
      * Возвращает пол персоны.
-     * @return int<-1,1>
+     * @return GenderInterface
      */
-    public function getGender():int;
+    public function getGender():GenderInterface;
 }
