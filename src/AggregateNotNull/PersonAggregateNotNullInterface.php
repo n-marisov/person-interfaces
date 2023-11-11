@@ -1,6 +1,9 @@
 <?php
 
-namespace Maris\interfaces\Person;
+namespace Maris\interfaces\Person\AggregateNotNull;
+
+use Maris\interfaces\Person\Aggregate\PersonAggregateInterface;
+use Maris\interfaces\Person\Model\PersonInterface;
 
 /***
  * Интерфейс объектов способных хранить данные о человеке.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maris\interfaces\Person;
+namespace Maris\interfaces\Person\Model;
 
 /**
  * Пол (Гендерная принадлежность).
