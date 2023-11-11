@@ -10,5 +10,5 @@ use Maris\interfaces\Person\Model\PatronymicInterface;
  */
 interface PatronymicAggregateStrictInterface extends PatronymicAggregateNotNullInterface
 {
-    public function getPatronymic(): PatronymicInterface|string;
+    public function getPatronymic(): PatronymicInterface;
 }
