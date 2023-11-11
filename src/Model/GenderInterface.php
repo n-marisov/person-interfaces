@@ -14,10 +14,23 @@ interface GenderInterface
     public function isMan():bool;
 
     /**
+     * Указывает что пол не мужской.
+     * @return bool
+     */
+    public function isNotMan():bool;
+
+
+    /**
      * Указывает что пол женский.
      * @return bool
      */
     public function isGirl():bool;
+
+    /**
+     * Указывает что пол не женский.
+     * @return bool
+     */
+    public function isNotGirl():bool;
 
     /**
      * Указывает что пол не определен.
