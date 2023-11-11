@@ -1,6 +1,6 @@
 <?php
 
-namespace Maris\interfaces\Person\Model;
+namespace Maris\interfaces\Person;
 
 /***
  * Интерфейс для классов имеющих пол.

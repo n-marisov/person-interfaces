@@ -1,6 +1,6 @@
 <?php
 
-namespace Maris\interfaces\Person\Model;
+namespace Maris\interfaces\Person;
 
 use DateTimeInterface;
 
@@ -35,7 +35,7 @@ interface PersonInterface
 
     /***
      * Возвращает пол персоны.
-     * @return GenderInterface
+     * @return GenderInterface|null
      */
-    public function getGender():GenderInterface;
+    public function getGender():?GenderInterface;
 }
