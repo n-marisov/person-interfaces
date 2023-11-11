@@ -2,7 +2,7 @@
   "name": "maris/person-interfaces",
   "description": "Коллекция интерфейсов для пользователя.",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minimum-stability": "stable",
   "authors": [
     {
