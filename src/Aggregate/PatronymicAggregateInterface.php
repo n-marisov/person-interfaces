@@ -8,7 +8,13 @@ interface PatronymicAggregateInterface
 {
     /**
      * Возвращает фамилию.
-     * @return PatronymicInterface|string|null
+     * @return PatronymicInterface|null
      */
-    public function getPatronymic():PatronymicInterface|string|null;
+    public function getPatronymic():PatronymicInterface|null;
+
+    /***
+     * Указывает наличие отчества.
+     * @return bool
+     */
+    public function patronymicExists():bool;
 }

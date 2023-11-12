@@ -7,5 +7,5 @@ use Maris\interfaces\Person\Model\FirstnameInterface;
 
 interface FirstnameAggregateNotNollInterface extends FirstnameAggregateInterface
 {
-    public function getFirstname(): FirstnameInterface|string;
+    public function getFirstname(): FirstnameInterface;
 }

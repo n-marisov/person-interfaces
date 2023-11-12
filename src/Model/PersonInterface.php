@@ -18,4 +18,17 @@ interface PersonInterface extends SurnameAggregateInterface, FirstnameAggregateI
      * @return DateTimeInterface|null
      */
     public function getBirthDate(): ?DateTimeInterface;
+
+    /**
+     * Указывает на то что у персоны определена дата рождения.
+     * @return bool
+     */
+    public function birthDateExists():bool;
+
+    /***
+     * Указывает на то что все поля заполнены.
+     * @return bool
+     */
+    public function isStrict():bool;
+
 }

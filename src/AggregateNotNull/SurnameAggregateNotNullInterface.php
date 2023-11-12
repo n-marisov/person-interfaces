@@ -7,5 +7,5 @@ use Maris\interfaces\Person\Model\SurnameInterface;
 
 interface SurnameAggregateNotNullInterface extends SurnameAggregateInterface
 {
-    public function getSurname(): SurnameInterface|string;
+    public function getSurname(): SurnameInterface;
 }

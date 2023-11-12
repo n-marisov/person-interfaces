@@ -9,5 +9,15 @@ use Maris\interfaces\Person\Model\SurnameInterface;
  */
 interface SurnameAggregateInterface
 {
+    /***
+     * Возвращает фамилию.
+     * @return SurnameInterface|string|null
+     */
     public function getSurname():SurnameInterface|string|null;
+
+    /***
+     * Указывает наличие фамилии.
+     * @return bool
+     */
+    public function surnameExists():bool;
 }

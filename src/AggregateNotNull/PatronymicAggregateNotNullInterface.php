@@ -7,5 +7,5 @@ use Maris\interfaces\Person\Model\PatronymicInterface;
 
 interface PatronymicAggregateNotNullInterface extends PatronymicAggregateInterface
 {
-    public function getPatronymic(): PatronymicInterface|string;
+    public function getPatronymic(): PatronymicInterface;
 }

@@ -11,4 +11,10 @@ interface FirstnameAggregateInterface
      * @return FirstnameInterface|string|null
      */
     public function getFirstname():FirstnameInterface|string|null;
+
+    /**
+     * Указывает наличие имени.
+     * @return bool
+     */
+    public function firstnameExists():bool;
 }

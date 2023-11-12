@@ -9,5 +9,15 @@ use Maris\interfaces\Person\Model\GenderInterface;
  */
 interface GenderAggregateInterface
 {
+    /***
+     * Возвращает пол.
+     * @return GenderInterface|null
+     */
     public function getGender():?GenderInterface;
+
+    /**
+     * Указывает указан ли пол.
+     * @return bool
+     */
+    public function genderExists():bool;
 }
